@@ -1,0 +1,12 @@
+GET http://localhost:8081/api/currencyRate/EUR/13-05-2022
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+GET http://localhost:8081/api/currencyRate/USD/13-05-2022
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
+
+###

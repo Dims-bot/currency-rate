@@ -1,0 +1,6 @@
+GET http://localhost:8080/api/currencyRate/CBR/USD/16-05-2022
+Accept: +/+
+Content-Type: application/json
+Cache-Control: no-cache
+
+###

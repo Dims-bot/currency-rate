@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8090
+  endpoints:
+    enable-by-default: false
+  endpoint:
+    health:
+      enables: true
+      probes:
+        enabled: true
+
+app:
+  cache:
+    size: 365
+  rest:
+    api:
+      prefix: /api
+cbr:
+  url: "https://cbr.ru/scripts/xml_daily.asp"
